@@ -9,9 +9,11 @@
 */
 
 /*
-This code is a simplification of the Asier Marzo version, no need to use external pins for synchronization and no delays with nops instructions.
+This code is a simplification of the Asier Marzo version, no need to use external pins for synchronization 
+and no delays with nops instructions.
 
-This algorithm is optimized to use only a pair of ultrasonic transducers facing each other and an Arduino Nano, using software interruptions
+This algorithm is optimized to use only a pair of ultrasonic transducers facing each other and an Arduino Nano,
+using software interruptions
 of an 80 kHz timer, and toggling the state of the pins.
 
 If using  HC-SR04 sensor transducers, be sure to use the emission transducers with a T marked on the back.
